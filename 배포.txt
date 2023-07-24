@@ -1,0 +1,22 @@
+git init
+
+git config user.name 'moonjongjs'
+git config user.email 'moonseonjong@naver.com'
+git config --global http.proxy http://moonjongjsp.cafe24.com
+
+git remote add origin https://github.com/moonjongjs/java_react_kurly_proxy.git
+
+git add .
+git commit -m 'java react project'
+git push origin master
+
+
+
+"predeploy": "npm run build",
+"deploy": "gh-pages -b master -d build"
+
+
+"homepage": "https://moonjongjs.github.io/java_react_kurly_proxy"
+
+
+
